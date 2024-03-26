@@ -3,6 +3,7 @@ import { List } from "flowbite-react";
 import Homeicon from '../Images/Home-icon.png';
 import Location from '../Images/Icons/Location.png';
 import Polygon from '../Images/Icons/Polygon.png';
+import City from '../Images/City.png';
 
 
 
@@ -57,14 +58,33 @@ export default function Home() {
 </div>
 
 </div>
+      </div>
+      </div>
+
+      <div className='w-full '>
+    <h1 className='font-semibold text-3xl text-center'>Predictive Crime Analysis</h1>
+
+    <div className='w-full flex justify-center items-center flex-wrap mt-10 gap-5'>
+        <div className='  lg:w-2/5  flex justify-center items-center' > <img src={City} alt="" /></div>
+
+        <div className='flex flex-col gap-5 w-4/5 lg:w-1/2  ' >
+          <p className='text-black font-medium text-justify'>
+          PredctX is a revolutionary police performance management and predictive crime analysis tool. We leverage the power of data science and artificial intelligence to equip law enforcement agencies with the insights they need to proactively prevent crime and optimise resource allocation.
+          </p>
+          <p className='text-black font-medium text-justify'>
+          We empower law enforcement with the tools they need to not just analyse past crime, but predict future criminal activity and optimise police resources.
+          </p>
+          <p className='text-black font-medium text-justify'>
+          Our Mission:
+          </p>
+          <p className='text-black font-medium text-justify'>
+          To create safer communities by providing police departments with advanced crime prediction capabilities and data-driven decision-making tools.
+          </p>
+        </div>
+    </div>
     
 
-
       </div>
-
-
-      </div>
-      
     
     </div>
   )
