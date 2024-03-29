@@ -1,4 +1,5 @@
 import { Footer } from "flowbite-react";
+import { Link } from "react-router-dom";
 
 function NewFooter() {
   return (
@@ -27,9 +28,9 @@ function NewFooter() {
             <div>
               <Footer.Title title="Navigations" className="text-white font-semibold text-md" />
               <Footer.LinkGroup col>
-                <Footer.Link href="#" className="text-white font-light">Home</Footer.Link>
-                <Footer.Link href="#" className="text-white font-light">Map</Footer.Link>
-                <Footer.Link href="#" className="text-white font-light">Crime</Footer.Link>
+                <Footer.Link href="#" className="text-white font-light" as='div' ><Link to='/'>Home</Link></Footer.Link>
+                <Footer.Link href="#" className="text-white font-light" as='div'><Link to='/map'>Map</Link></Footer.Link>
+                <Footer.Link href="#" className="text-white font-light" as='div'><Link to='/crime'>Crime</Link></Footer.Link>
               </Footer.LinkGroup>
             </div>
             <div>
