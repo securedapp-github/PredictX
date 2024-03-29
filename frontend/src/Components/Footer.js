@@ -36,9 +36,9 @@ function NewFooter() {
             <div>
               <Footer.Title title="Others"  className="text-white font-semibold text-md"/>
               <Footer.LinkGroup col>
-                <Footer.Link href="#" className="text-white font-light">Victim profile</Footer.Link>
-                <Footer.Link href="#" className="text-white font-light">Accused profile</Footer.Link>
-                <Footer.Link href="#" className="text-white font-light">Contact</Footer.Link>
+                <Footer.Link href="#" className="text-white font-light"as='div'><Link to='/profile'>Victim profile</Link></Footer.Link>
+                <Footer.Link href="#" className="text-white font-light"as='div'><Link to='/profile'>Accused profile</Link></Footer.Link>
+                <Footer.Link href="#" className="text-white font-light"as='div'><Link to='/contact'>Contact</Link></Footer.Link>
               </Footer.LinkGroup>
             </div>
           </div>
