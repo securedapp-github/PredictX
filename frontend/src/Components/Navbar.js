@@ -9,7 +9,7 @@ function NavBar() {
           <img src={Predctx} className="ml-10 h-6 sm:h-9" alt="Flowbite React Logo" />
         </Navbar.Brand>
         <div className="flex md:order-2">
-          <Button color='blue' className="mr-10 rounded-lg bg-blue-800 z-50">Sign in</Button>
+          <Button color='blue' className="mr-10 rounded-lg bg-blue-800 z-50"><Link to='/signin'>Sign in</Link></Button>
           <Navbar.Toggle  className="z-50 text-white bg-blue-600  focus:outline-none active:outline-none focus:bg-blue-600"/>
         </div>
         <Navbar.Collapse className="z-50 border-none">
