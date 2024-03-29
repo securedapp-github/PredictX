@@ -11,3 +11,20 @@ code {
   font-family: "Poppins", sans-serif;
 }
 
+.SocialCard::-webkit-scrollbar {
+  width: 5px;
+}
+
+.SocialCard::-webkit-scrollbar-track {
+  background:rgb(144, 145, 147) ;
+  border-radius: 10px;
+}
+
+.SocialCard::-webkit-scrollbar-thumb {
+  background: rgb(70, 70, 71);
+  border-radius: 10px;
+}
+
+.SocialCard::-webkit-scrollbar-thumb:hover {
+  background: rgb(21, 115, 71);
+}

@@ -2,7 +2,7 @@ import { Footer } from "flowbite-react";
 
 function NewFooter() {
   return (
-    <Footer container className="bg-mybg rounded-none">
+    <Footer container className="bg-mybg rounded-none mt-10">
       <div className="w-full">
         <div className="grid w-full justify-between sm:flex sm:justify-between md:flex md:grid-cols-1">
           <div>

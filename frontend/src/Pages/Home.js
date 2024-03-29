@@ -1,5 +1,5 @@
 import React from 'react'
-import { List } from "flowbite-react";
+import { List,Avatar } from "flowbite-react";
 import Homeicon from '../Images/Home-icon.png';
 import Location from '../Images/Icons/Location.png';
 import Polygon from '../Images/Icons/Polygon.png';
@@ -16,6 +16,11 @@ import Economy from '../Images/Icons/Economy.png';
 import Public from '../Images/Icons/Public.png';
 import Service from '../Images/Icons/Service.png';
 import Viewed from '../Images/Icons/Viewed.png';
+import X from '../Images/Icons/X.png';
+import Facebook from '../Images/Icons/Facebook.png';
+import Insta from '../Images/Icons/Insta.png';
+
+
 
 export default function Home() {
   return (
@@ -40,7 +45,7 @@ export default function Home() {
     </div>
 <div className='flex mx-auto justify-center flex-col gap-8'>
   <div><h1 className='font-bold text-2xl'>Top District crime wise</h1></div>
-  <div className='flex gap-10 md:gap-14 flex-wrap justify-center'>
+  <div className='flex gap-8 md:gap-14 flex-wrap justify-start'>
   <List className='text-black'>
       <List.Item>Davangere</List.Item>
       <List.Item>Simoga</List.Item>
@@ -144,14 +149,93 @@ export default function Home() {
           <p className='text-center px-6 '>Find the most viewed datasets hosted on Dallas Open Data</p>
           <p className='font-semibold text-md text-red-700 underline'>View More</p>
         </div>
-
-        
-        
-        
       </div>
     </div>
 
+     {/* STAY UPDATE section */}
+     <div className='w-full mb-20 '>
+    <h1 className='font-semibold text-3xl text-center mt-20'>STAY UPDATE</h1>
+      <div className='w-full flex mt-24 justify-center md:gap-20 sm:gap-16 gap-16 flex-wrap' >
 
+      <div className='w-72 h-96 shadow-2xl border-2  rounded-2xl '>
+        <div className='flex justify-start items-center'>
+        <img src={X} alt="" className='h-16 w-16 relative bottom-9 left-4' />
+        <h1 className='text-center text-2xl font-medium ml-7 text-gray-700'>Twitter</h1>
+        </div>
+        {/* <hr  className='w-4/5 mx-auto bg-gray-800' /> */}
+        <hr style={{color:'grey',backgroundcolor:'grey', height: 2,width:'80%'}} className='mx-auto' />
+        <div className='w-5/6 h-72 border mx-auto mt-3 rounded-md border-gray-300'>
+          <h1 className='font-semibold text-black text-center p-2'>Tweet from @crimedept</h1>
+          <hr />
+          <div className='w-full  flex justify-start items-center gap-2 mt-2'>
+          <Avatar rounded className='ml-3' />
+          <p className='font-medium text-black'>@crimedept</p>
+          </div>
+          <div style={{height:'186px'}} className='w-full   SocialCard pb-2  px-3 mt-3 overflow-y-auto'>
+          <p className='text-sm'>
+          Beware of such URLs which download malware applications upon clicking, it can lead to access of your SMSs, camera, contacts after installation by the cyber fraudsters and finally cause to huge financial loss.#I4C #MHA #Cyberdost #Cybercrime 
+#Stayalert #News
+          </p>
+          </div>
+        </div>
+      </div>
+
+
+      <div className='w-72 h-96 shadow-2xl border-2  rounded-2xl '>
+        <div className='flex justify-start items-center'>
+        <img src={Facebook} alt="" className='h-16 w-16 relative bottom-9 left-4' />
+        <h1 className='text-center text-2xl font-medium ml-7 text-gray-700'>Facebook</h1>
+        </div>
+        {/* <hr  className='w-4/5 mx-auto bg-gray-800' /> */}
+        <hr style={{color:'grey',backgroundcolor:'grey', height: 2,width:'80%'}} className='mx-auto' />
+        <div className='w-5/6 h-72 border mx-auto mt-3 rounded-md border-gray-300'>
+          <h1 className='font-semibold text-black text-center p-2'>Tweet from @crimedept</h1>
+          <hr />
+          <div className='w-full  flex justify-start items-center gap-2 mt-2'>
+          <Avatar rounded className='ml-3' />
+          <p className='font-medium text-black'>@crimedept</p>
+          </div>
+          <div style={{height:'186px'}} className='w-full   SocialCard   px-3 mt-3 overflow-y-auto'>
+          <p className='text-sm'>
+          Beware of such URLs which download malware applications upon clicking, it can lead to access of your SMSs, camera, contacts after installation by the cyber fraudsters and finally cause to huge financial loss.#I4C #MHA #Cyberdost #Cybercrime 
+#Stayalert #News
+          </p>
+          </div>
+        </div>
+      </div>
+
+
+      <div className='w-72 h-96 shadow-2xl border-2  rounded-2xl '>
+        <div className='flex justify-start items-center'>
+        <img src={Insta} alt="" className='h-16 w-16 relative bottom-9 left-4' />
+        <h1 className='text-center text-2xl font-medium ml-5 text-gray-700'>Instagram</h1>
+        </div>
+        {/* <hr  className='w-4/5 mx-auto bg-gray-800' /> */}
+        <hr style={{color:'grey',backgroundcolor:'grey', height: 2,width:'80%'}} className='mx-auto' />
+        <div className='w-5/6 h-72 border mx-auto mt-3 rounded-md border-gray-300'>
+          <h1 className='font-semibold text-black text-center p-2'>Tweet from @crimedept</h1>
+          <hr />
+          <div className='w-full  flex justify-start items-center gap-2 mt-2'>
+          <Avatar rounded className='ml-3' />
+          <p className='font-medium text-black'>@crimedept</p>
+          </div>
+          <div style={{height:'186px'}} className='w-full   SocialCard   px-3 mt-3 overflow-y-auto'>
+          <p className='text-sm'>
+          Beware of such URLs which download malware applications upon clicking, it can lead to access of your SMSs, camera, contacts after installation by the cyber fraudsters and finally cause to huge financial loss.#I4C #MHA #Cyberdost #Cybercrime 
+#Stayalert #News
+          </p>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+      </div>
+
+      </div>
     </div>
   )
 }
