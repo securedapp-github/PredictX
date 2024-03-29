@@ -45,7 +45,7 @@ export default function Home() {
     </div>
 <div className='flex mx-auto justify-center flex-col gap-8'>
   <div><h1 className='font-bold text-2xl'>Top District crime wise</h1></div>
-  <div className='flex gap-8 md:gap-14 flex-wrap justify-start'>
+  <div className='flex gap-8 md:gap-10 flex-wrap justify-start'>
   <List className='text-black'>
       <List.Item>Davangere</List.Item>
       <List.Item>Simoga</List.Item>
