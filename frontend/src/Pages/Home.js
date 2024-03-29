@@ -112,49 +112,38 @@ export default function Home() {
       {/* Catalog section */}
     <div className='w-full mb-7'>
     <h1 className='font-semibold text-3xl text-center mt-20'>Search The Data Catalog by Category</h1>
-    <p className='font-normal text-md text-center mt-4'> always ensure that you have the right to use and distribute the data according to its licensing terms and any applicable regulations.</p>
+    <p className=' text-md text-center mt-4 font-semibold text-gray-600'> always ensure that you have the right to use and distribute the data according to its licensing terms and any applicable regulations.</p>
       <div className='flex flex-wrap gap-10 lg:gap-20 justify-center  mt-20 w-full '>
-
-
       <div className='w-96 xl:w-2/6  h-72 flex flex-col justify-center items-center gap-5 border shadow-md shadow-slate-400'>
           <div className='flex flex-col gap-3 justify-center items-center'>
-
           <img src={Service} alt=""  className='h-14 w-14' />
           <h2 className='font-semibold'>Services</h2>
           </div>
           <p className='text-center px-6'>Data on 311 services, animal control , and other city department services</p>
           <p className='font-semibold text-md text-red-700 underline'>View More</p>
         </div>
-
         <div className='w-96 xl:w-2/6  h-72 flex flex-col justify-center items-center gap-5 border shadow-md shadow-slate-400'>
           <div className='flex flex-col gap-3 justify-center items-center'>
-
           <img src={Public} alt=""  className='h-14 w-14' />
           <h2 className='font-semibold'>Public Safety</h2>
           </div>
-          <p className='text-center px-6'>Dallas police department data and information on public safety initiatives</p>
+          <p className='text-center px-6 '>Dallas police department data and information on public safety initiatives</p>
           <p className='font-semibold text-md text-red-700 underline'>View More</p>
         </div>
-
-
-        
-        
         <div className='w-96 xl:w-2/6  h-72 flex flex-col justify-center items-center gap-5 border shadow-md shadow-slate-400'>
           <div className='flex flex-col gap-3 justify-center items-center'>
-
           <img src={Economy} alt=""  className='h-14 w-14' />
           <h2 className='font-semibold'>Economy</h2>
           </div>
-          <p className='text-center px-6'>Find information on the City budget and how funds are allocated</p>
+          <p className='text-center px-6 '>Find information on the City budget and how funds are allocated</p>
           <p className='font-semibold text-md text-red-700 underline'>View More</p>
         </div>
         <div className='w-96 xl:w-2/6  h-72 flex flex-col justify-center items-center gap-5 border shadow-md shadow-slate-400'>
           <div className='flex flex-col gap-3 justify-center items-center'>
-
           <img src={Viewed} alt=""  className='h-14 w-14' />
           <h2 className='font-semibold'>Most Viewed Datasets</h2>
           </div>
-          <p className='text-center px-6'>Find the most viewed datasets hosted on Dallas Open Data</p>
+          <p className='text-center px-6 '>Find the most viewed datasets hosted on Dallas Open Data</p>
           <p className='font-semibold text-md text-red-700 underline'>View More</p>
         </div>
 
