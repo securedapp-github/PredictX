@@ -13,35 +13,38 @@ function NewFooter() {
             //   alt="Flowbite Logo"
             //   name="PredctX"
             />
-          <h1 className="text-white">PredctX</h1>
+          <h1 className="text-white mb-10  lg:ml-10 xl:ml-20 font-bold text-3xl">Predct<span className="text-5xl font-semibold text-red-700">X</span></h1>
           </div>
-          <div className="grid grid-cols-2 gap-8 sm:mt-4 sm:grid-cols-3 sm:gap-6">
+          <div className="grid grid-cols-2 gap-8 sm:mt-4 sm:grid-cols-3 sm:gap-20">
             <div>
-              <Footer.Title color="white" title="about" />
+              <Footer.Title  title="Social Media"  className="text-white font-semibold text-md"/>
               <Footer.LinkGroup col>
-                <Footer.Link href="#">Flowbite</Footer.Link>
-                <Footer.Link href="#">Tailwind CSS</Footer.Link>
+                <Footer.Link href="#" className="text-white font-light">Twitter</Footer.Link>
+                <Footer.Link href="#" className="text-white font-light">Instagram</Footer.Link>
+                <Footer.Link href="#" className="text-white font-light">Facebook</Footer.Link>
               </Footer.LinkGroup>
             </div>
             <div>
-              <Footer.Title title="Follow us" />
+              <Footer.Title title="Navigations" className="text-white font-semibold text-md" />
               <Footer.LinkGroup col>
-                <Footer.Link href="#">Github</Footer.Link>
-                <Footer.Link href="#">Discord</Footer.Link>
+                <Footer.Link href="#" className="text-white font-light">Home</Footer.Link>
+                <Footer.Link href="#" className="text-white font-light">Map</Footer.Link>
+                <Footer.Link href="#" className="text-white font-light">Crime</Footer.Link>
               </Footer.LinkGroup>
             </div>
             <div>
-              <Footer.Title title="Legal" />
+              <Footer.Title title="Others"  className="text-white font-semibold text-md"/>
               <Footer.LinkGroup col>
-                <Footer.Link href="#">Privacy Policy</Footer.Link>
-                <Footer.Link href="#">Terms &amp; Conditions</Footer.Link>
+                <Footer.Link href="#" className="text-white font-light">Victim profile</Footer.Link>
+                <Footer.Link href="#" className="text-white font-light">Accused profile</Footer.Link>
+                <Footer.Link href="#" className="text-white font-light">Contact</Footer.Link>
               </Footer.LinkGroup>
             </div>
           </div>
         </div>
         <Footer.Divider />
-        <div className="w-full sm:flex sm:items-center sm:justify-between">
-          <Footer.Copyright href="#" by="Made Remotely By Predcx™" year={2022} />
+        <div className="w-full flex justify-center items-center ">
+          <Footer.Copyright className="text-white" by="Made Remotely By Predcx™" year={new Date().getFullYear()} />
         </div>
       </div>
     </Footer>
