@@ -13,7 +13,7 @@ export default function Map() {
     <div style={{
       backgroundImage: `url(${Mapheroimg})`,
       backgroundBlendMode: 'multiply',
-      backgroundColor: 'rgba(13, 0, 107,0.9)' // change color and opacity as needed
+      backgroundColor: 'rgba(13, 0, 107,0.9)' 
     }} className='w-full relative bg-cover h-96 flex justify-center items-center'>
       <h1 className='font-bold text-white text-2xl sm:text-3xl md:text-5xl'>Monitoring <span className='text-red-600'>Crime Analytics</span></h1>
     </div>
