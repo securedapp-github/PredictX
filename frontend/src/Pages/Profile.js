@@ -1,4 +1,6 @@
 import React from 'react'
+import { Button, TextInput } from "flowbite-react";
+import { FiSearch } from "react-icons/fi";
 import ProfileHeroImg from '../Images/ProfileHeroImg.png';
 
 export default function Profile() {
@@ -13,6 +15,14 @@ export default function Profile() {
     </div>
 
 
+    <div className="w-full flex justify-center items-center mt-16">
+    <div className='w-5/6 flex flex-row gap-7'>
+    <TextInput id="email4" type="email" icon={FiSearch} placeholder="Search" required className='w-11/12'/>
+      <Button color="failure">Search</Button>
+
+    </div>
+      
+    </div>
 
 
     </div>
