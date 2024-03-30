@@ -172,7 +172,7 @@ export default function Home() {
           <p className='font-medium text-black'>@crimedept</p>
           </div>
           <div style={{height:'186px'}} className='w-full   SocialCard pb-2  px-3 mt-3 overflow-y-auto'>
-          <p className='text-sm'>
+          <p className='text-sm '>
           Beware of such URLs which download malware applications upon clicking, it can lead to access of your SMSs, camera, contacts after installation by the cyber fraudsters and finally cause to huge financial loss.#I4C #MHA #Cyberdost #Cybercrime 
 #Stayalert #News
           </p>
