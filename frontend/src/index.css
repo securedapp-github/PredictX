@@ -26,5 +26,5 @@ code {
 }
 
 .SocialCard::-webkit-scrollbar-thumb:hover {
-  background: rgb(21, 115, 71);
+  background: #0d006b;
 }
