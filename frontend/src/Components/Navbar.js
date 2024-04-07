@@ -17,8 +17,8 @@ function NavBar() {
             <Link to='/'>Home</Link>
           </Navbar.Link>
           <Navbar.Link href="#" className="z-50 text-black text-md border-none font-semibold hover:text-blue-800" style={{ transition: 'color 0.2s', color: 'black' }} onMouseOver={(e) => e.target.style.color = 'blue'} onMouseOut={(e) => e.target.style.color = 'black'} as='div'><Link to='/map'>Map</Link></Navbar.Link>
-          <Navbar.Link href="#" className="z-50 text-black text-md border-none font-semibold hover:text-blue-800" style={{ transition: 'color 0.2s', color: 'black' }} onMouseOver={(e) => e.target.style.color = 'blue'} onMouseOut={(e) => e.target.style.color = 'black'} as='div'><Link to='/profile'>Profile</Link></Navbar.Link>
-          <Navbar.Link href="#" className="z-50 text-black text-md border-none font-semibold hover:text-blue-800" style={{ transition: 'color 0.2s', color: 'black' }} onMouseOver={(e) => e.target.style.color = 'blue'} onMouseOut={(e) => e.target.style.color = 'black'} as='div'><Link to='/crime'>Crime</Link></Navbar.Link>
+          <Navbar.Link href="#" className="z-50 text-black text-md border-none font-semibold hover:text-blue-800" style={{ transition: 'color 0.2s', color: 'black' }} onMouseOver={(e) => e.target.style.color = 'blue'} onMouseOut={(e) => e.target.style.color = 'black'} as='div'><Link to='/state'>State</Link></Navbar.Link>
+          <Navbar.Link href="#" className="z-50 text-black text-md border-none font-semibold hover:text-blue-800" style={{ transition: 'color 0.2s', color: 'black' }} onMouseOver={(e) => e.target.style.color = 'blue'} onMouseOut={(e) => e.target.style.color = 'black'} as='div'><Link to='/district'>District</Link></Navbar.Link>
           <Navbar.Link href="#" className="z-50 text-black text-md border-none font-semibold hover:text-blue-800" style={{ transition: 'color 0.2s', color: 'black' }} onMouseOver={(e) => e.target.style.color = 'blue'} onMouseOut={(e) => e.target.style.color = 'black'} as='div'><Link to='/contact'>Contact</Link></Navbar.Link>
         </Navbar.Collapse>
       </Navbar>
