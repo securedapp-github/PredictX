@@ -28,3 +28,22 @@ code {
 .SocialCard::-webkit-scrollbar-thumb:hover {
   background: #0d006b;
 }
+
+.locations::-webkit-scrollbar {
+  width: 5px;
+}
+
+.locations::-webkit-scrollbar-track {
+  background:rgb(144, 145, 147) ;
+  border-radius: 10px;
+}
+
+.locations::-webkit-scrollbar-thumb {
+  background: rgb(70, 70, 71);
+  border-radius: 10px;
+}
+
+.locations::-webkit-scrollbar-thumb:hover {
+  background: #0d006b;
+}
+

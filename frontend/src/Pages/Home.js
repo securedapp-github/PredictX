@@ -3,7 +3,6 @@ import { List,Avatar } from "flowbite-react";
 import Homeicon from '../Images/Home-icon.png';
 import Location from '../Images/Icons/Location.png';
 import { AiOutlineDown } from 'react-icons/ai';
-import Polygon from '../Images/Icons/Polygon.png';
 import City from '../Images/City.png';
 import News1 from '../Images/News1.png';
 import News2 from '../Images/News2.png';
@@ -31,7 +30,48 @@ export default function Home() {
       setSelectedOption(option);
       setIsOpen(false);
     };
-  
+  const locations = [
+  "Belagavi City",
+  "Ballari",
+  "Bengaluru Dist",
+  "Chickballapura",
+  "Bengaluru City",
+  "Chitradurga",
+  "CID",
+  "Coastal Security Police",
+  "Dakshina Kannada",
+  "Davanagere",
+  "Gadag",
+  "Hassan",
+  "Haveri",
+  "Hubballi Dharwad City",
+  "Chikkamagaluru",
+  "K.G.F",
+  "Kalaburagi",
+  "Kalaburagi City",
+  "Karnataka Railways",
+  "Kodagu",
+  "Kolar",
+  "Koppal",
+  "Mandya",
+  "Mangaluru City",
+  "Mysuru City",
+  "Raichur",
+  "Ramanagara",
+  "Shivamogga",
+  "Tumakuru",
+  "Udupi",
+  "Uttara Kannada",
+  "Vijayanagara",
+  "Vijayapur",
+  "Yadgir",
+  "Mysuru Dist",
+  "Dharwad",
+  "Chamarajanagar",
+  "Belagavi Dist",
+  "Bagalkot",
+  "ISD Bengaluru"
+  ];
   return (
     <div>
       <div className='flex '>
@@ -48,10 +88,12 @@ export default function Home() {
           <AiOutlineDown className='ml-2' />
         </button>
         {isOpen && (
-          <ul className="absolute top-11 bg-white border-2 border-slate-200  w-64 mt-2 py-1 rounded shadow-lg">
-            <li className="py-1 px-4 hover:bg-gray-100 cursor-pointer" onClick={() => handleOptionClick('Option 1')}>Location 1</li>
-            <li className="py-1 px-4 hover:bg-gray-100 cursor-pointer" onClick={() => handleOptionClick('Option 2')}>Location 2</li>
-            <li className="py-1 px-4 hover:bg-gray-100 cursor-pointer" onClick={() => handleOptionClick('Option 3')}>Location 3</li>
+          <ul className="locations absolute top-11 bg-white border-2 border-slate-200  w-64 h-60 mt-2 py-1 rounded shadow-lg overflow-y-auto">
+            {locations.map((location) => (
+              <li key={location} className="py-1 px-4 hover:bg-gray-100 cursor-pointer" onClick={() => handleOptionClick(location)}>
+                {location}
+              </li>
+            ))}
           </ul>
         )}
 </div>
