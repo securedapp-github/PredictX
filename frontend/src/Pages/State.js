@@ -16,15 +16,9 @@ export default function State() {
     </div>
 
 
-    <div className="w-full flex justify-center items-center mt-16">
-    <div className='w-5/6 flex flex-row gap-7'>
-    <TextInput id="email4" type="email" icon={FiSearch} placeholder="Search" required className='w-11/12' color="blue"/>
-      <Button color="failure">Search</Button>
-    </div>
-    </div>
-
+   
 <div className='w-full mt-10'>
-  <h1 className='font-bold text-2xl ml-4 md:ml-10 lg:ml-20 xl:ml-32'>Available Crime List</h1>
+  {/* <h1 className='font-bold text-2xl ml-4 md:ml-10 lg:ml-20 xl:ml-32'>Available Crime List</h1> */}
   <div className='w-full flex justify-center items-center mt-12 flex-wrap gap-5'>
   <iframe 
     title="Frame 1" 
@@ -58,12 +52,18 @@ export default function State() {
 </div>
   
 
+<div className="w-full flex justify-center items-center mt-16">
+    <div className='w-5/6 flex flex-row gap-7'>
+    <TextInput id="email4" type="email" icon={FiSearch} placeholder="Search" required className='w-11/12' color="blue"/>
+      <Button color="failure">Search</Button>
+    </div>
+    </div>
 
 
 
 </div>
 
-<h1 className='font-bold text-2xl ml-4 md:ml-10 lg:ml-20 xl:ml-32 mt-10'>Available Crime List</h1>
+<h1 className='font-bold text-2xl ml-4 md:ml-10 lg:ml-20 xl:ml-32 mt-10'>Available Crime List by State Wise</h1>
 
 <div className=' mt-10 flex justify-center flex-row items-center'>
 <div className="overflow-x-auto w-full sm:w-[90%] md:w-[80%] border shadow-md shadow-slate-600 rounded-xl">

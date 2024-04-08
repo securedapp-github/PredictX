@@ -38,7 +38,7 @@ export default function District() {
     </div>
     </div>
 
-  <h1 className='font-bold text-2xl ml-4 md:ml-10 lg:ml-20 xl:ml-32 mt-10'>Available Crime List</h1>
+  <h1 className='font-bold text-2xl ml-4 md:ml-10 lg:ml-20 xl:ml-32 mt-10'>Available Crime List by District Wise</h1>
 
 <div className=' mt-10 flex justify-center flex-row items-center'>
 <div className="overflow-x-auto w-full sm:w-[90%] md:w-[80%] border shadow-md shadow-slate-600 rounded-xl">
