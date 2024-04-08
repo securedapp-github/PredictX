@@ -99,7 +99,7 @@ const Firpopup = ({ onClose, onApply }) => {
 
 <div className='mb-6'>
             <h1 className='text-lg font-medium mb-3'>Upload</h1>
-            <FileInput id="file-upload-helper-text" helperText="SVG, PNG, JPG or GIF (MAX. 800x400px)." />
+            <FileInput id="file-upload-helper-text" helperText="PDF, PNG, JPG, DOC or File (MAX 100MB)" />
     
 </div>
 

@@ -1,7 +1,8 @@
-import React from 'react'
+import React,{useState} from 'react'
 import { List,Avatar } from "flowbite-react";
 import Homeicon from '../Images/Home-icon.png';
 import Location from '../Images/Icons/Location.png';
+import { AiOutlineDown } from 'react-icons/ai';
 import Polygon from '../Images/Icons/Polygon.png';
 import City from '../Images/City.png';
 import News1 from '../Images/News1.png';
@@ -23,6 +24,14 @@ import Insta from '../Images/Icons/Insta.png';
 
 
 export default function Home() {
+    const [isOpen, setIsOpen] = useState(false);
+    const [selectedOption, setSelectedOption] = useState('Select Location');
+  
+    const handleOptionClick = (option) => {
+      setSelectedOption(option);
+      setIsOpen(false);
+    };
+  
   return (
     <div>
       <div className='flex '>
@@ -31,8 +40,25 @@ export default function Home() {
       <h1 className=' font-bold text-4xl sm:text-2xl sm:ml-4 lg:text-3xl lg:ml-36 xl:text-4xl xl:ml-36 2xl:text-4xl flex flex-col justify-center text-center mt-20 text-mybg'> <span>Welcome to the world of <span className='text-red-700'>Predictive</span></span> <span className='text-red-700'>crime analysis</span></h1>
 <div className='w-11/12 ml-5 flex flex-col mt-12 gap-12'>
 <div className='mx-auto flex gap-2 justify-center flex-wrap border border-slate-400 shadow-md p-4 rounded-2xl items-center'>
-    <button  className='bg-white text-black border border-slate-400 shadow-md flex justify-center items-center p-3 rounded-xl'
-     ><img src={Location} alt="" className='mr-2' />Select Location<img src={Polygon} alt="" className='ml-3' /></button>
+
+<div className='flex flex-col relative'>
+<button onClick={() => setIsOpen(!isOpen)} className='bg-white text-black border border-slate-400 shadow-md flex justify-center items-center p-3 gap-3 rounded-xl'>
+          <img src={Location} alt="" className='mr-2' />
+          {selectedOption}
+          <AiOutlineDown className='ml-2' />
+        </button>
+        {isOpen && (
+          <ul className="absolute top-11 bg-white border-2 border-slate-200  w-64 mt-2 py-1 rounded shadow-lg">
+            <li className="py-1 px-4 hover:bg-gray-100 cursor-pointer" onClick={() => handleOptionClick('Option 1')}>Location 1</li>
+            <li className="py-1 px-4 hover:bg-gray-100 cursor-pointer" onClick={() => handleOptionClick('Option 2')}>Location 2</li>
+            <li className="py-1 px-4 hover:bg-gray-100 cursor-pointer" onClick={() => handleOptionClick('Option 3')}>Location 3</li>
+          </ul>
+        )}
+</div>
+
+    {/* <button  className='bg-white text-black border border-slate-400 shadow-md flex justify-center items-center p-3 rounded-xl'
+     ><img src={Location} alt="" className='mr-2' />Select Location<img src={Polygon} alt="" className='ml-3' /></button> */}
+
 <input type="date" name="date" id="date" className='bg-white text-black border border-slate-400 shadow-md rounded-xl cursor-pointer' placeholder='Select Date' />
 <button  className=' text-white border border-slate-400 shadow-md flex justify-center items-center p-3 px-8 rounded-xl bg-mybg'
     >Search</button>
@@ -45,18 +71,18 @@ export default function Home() {
     </div>
 <div className='flex mx-auto justify-center flex-col gap-8'>
   <div><h1 className='font-bold text-2xl'>Top District crime wise</h1></div>
-  <div className='flex gap-8 md:gap-10 flex-wrap justify-start'>
+  <div className='flex gap-8 md:gap-10 flex-wrap justify-center flex-col md:flex-row mb-3 sm:mb-5 md:mb-0'>
   <List className='text-black'>
-      <List.Item>Davangere</List.Item>
-      <List.Item>Simoga</List.Item>
+      <List.Item>Bengaluru City</List.Item>
+      <List.Item>Bengaluru Dist</List.Item>
     </List>
   <List className='text-black'>
-      <List.Item>Kolar</List.Item>
-      <List.Item>Mysore</List.Item>
+      <List.Item>Tumakuru</List.Item>
+      <List.Item>Shivamogga</List.Item>
     </List>
   <List className='text-black'>
-      <List.Item>Bengaluru North</List.Item>
-      <List.Item>Mangalore</List.Item>
+      <List.Item>Mandya</List.Item>
+      <List.Item>Belagavi Dist</List.Item>
     </List>
   </div>
 </div>
