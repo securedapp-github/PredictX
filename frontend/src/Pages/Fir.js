@@ -11,14 +11,14 @@ import { FaDownload } from 'react-icons/fa';
 export default function Fir() {
   const [currentPage, setCurrentPage] = useState(1);
 
-  const onPageChange = (page: number) => setCurrentPage(page);
+  const onPageChange = (page) => setCurrentPage(page);
   return (
     <div className='w-full'>
         
       <div className=' w-full lg:w-[90%] my-16 mx-auto'>
 
         <div className='w-full bg-slate-200  border-2 border-slate-300 rounded-md h-40 flex flex-wrap items-center justify-center flex-col gap-3 md:flex-row md:justify-between '>
-            <p className='text-2xl font-medium text-black md:ml-6'>Do you want to Submit FIR? <br /> <span className='  text-sm font-normal'>Your file will be provided as safe and secure</span></p>
+            <p className='text-xl sm:text-2xl font-medium text-black md:ml-6'>Do you want to Submit FIR? <br /> <span className='  text-sm font-normal'>Your file will be process as safe and secure</span></p>
             <Button color='blue' className="mr-10 rounded-lg bg-mybg z-50 h-12"><Link to='/signin' className='flex justify-center items-center gap-2'><img src={Submit} alt='' /> Submit FIR</Link></Button>
         </div>
         <h1 className='font-medium text-2xl ml-4 md:ml-10  mt-10'>Explore by format</h1>
@@ -114,8 +114,9 @@ export default function Fir() {
     </div>
 
 
-    <div className="flex overflow-x-auto sm:justify-center mt-10 ">
-      <Pagination currentPage={currentPage} totalPages={100} onPageChange={onPageChange} showIcons color='blue' />
+    <div className="flex overflow-x-auto justify-center mt-10 ">
+      <Pagination currentPage={currentPage} totalPages={100} onPageChange={onPageChange} previousLabel=" "
+        nextLabel=" " showIcons  />
     </div>
 
 
