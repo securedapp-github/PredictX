@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9959cf00.css",
+    "main.js": "/static/js/main.241dccf3.js",
+    "static/media/Home-icon.png": "/static/media/Home-icon.fde41aff9858a39d1af2.png",
+    "static/media/ProfileHeroImg.png": "/static/media/ProfileHeroImg.2a1bbc98230a8f21b5f2.png",
+    "static/media/Mapheroimg.png": "/static/media/Mapheroimg.8263627e5d42bed2adb9.png",
+    "static/media/NewProfileHeroImg.png": "/static/media/NewProfileHeroImg.86a98cc2826491ba2a12.png",
+    "static/media/Mapimage1.png": "/static/media/Mapimage1.708c3d9b9c105df35412.png",
+    "static/media/Mapimage3.png": "/static/media/Mapimage3.f033b4d9073a0518f092.png",
+    "static/media/City.png": "/static/media/City.50a72c01b1191ea40163.png",
+    "static/media/Mapimage5.png": "/static/media/Mapimage5.39ad772699430108ec24.png",
+    "static/media/Mapimage2.png": "/static/media/Mapimage2.7a8cc17226dc0ec7ae32.png",
+    "static/media/Mapimage4.png": "/static/media/Mapimage4.cd6cdc8597f2de826d9f.png",
+    "static/media/News3.png": "/static/media/News3.176c1c248bb6c1da8538.png",
+    "static/media/News5.png": "/static/media/News5.743f63d373d4bcd51907.png",
+    "static/media/News4.png": "/static/media/News4.ae3ac553185b06ce2116.png",
+    "static/media/News1.png": "/static/media/News1.fc11d56f661d96c5367a.png",
+    "static/media/News2.png": "/static/media/News2.3d67eda29d2c0c00eda7.png",
+    "static/media/News6.png": "/static/media/News6.bc634bf005a3cbf70154.png",
+    "static/media/Insta.png": "/static/media/Insta.0040b8228c6f43bf43a1.png",
+    "static/media/X.png": "/static/media/X.39eb8346507eef1afdf7.png",
+    "static/media/Facebook.png": "/static/media/Facebook.76dec58ca80f4690922b.png",
+    "index.html": "/index.html",
+    "main.9959cf00.css.map": "/static/css/main.9959cf00.css.map",
+    "main.241dccf3.js.map": "/static/js/main.241dccf3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9959cf00.css",
+    "static/js/main.241dccf3.js"
+  ]
+}
