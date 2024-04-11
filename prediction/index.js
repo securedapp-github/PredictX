@@ -1,7 +1,7 @@
 // Import TensorFlow.js library
 const tf = require('@tensorflow/tfjs-node');
 
-// Define your series of numbers
+// Define your series of numbers - crime data for previous years for a district
 const series = [9125,
     9091,
     8459,
