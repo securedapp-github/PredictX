@@ -55,11 +55,11 @@ export default function Fir() {
 
           <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
             <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white flex gap-4">
-             <img src={Movie} alt="" className='h-4 w-6' /> {'Evidence of kalar theft case'}
+             <img src={Movie} alt="" className='h-4 w-6' /> {'Evidence of case ID 313'}
             </Table.Cell>
             <Table.Cell className='text-nowrap ' >02-04-2024</Table.Cell >
-            <Table.Cell className='text-nowrap ' >Kalar</Table.Cell >
-            <Table.Cell className='text-nowrap ' >Bangalore-kmk</Table.Cell>
+            <Table.Cell className='text-nowrap ' >Karnataka</Table.Cell >
+            <Table.Cell className='text-nowrap ' >Bangalore</Table.Cell>
             <Table.Cell  className='flex items-center gap-6'>
             <Button color="failure" outline>View</Button>
             <button><FaDownload color="#0d006b" /></button>
@@ -68,11 +68,11 @@ export default function Fir() {
           
           <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
             <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white flex gap-4">
-             <img src={Movie} alt="" className='h-4 w-6' /> {'Evidence of kalar theft case'}
+             <img src={Movie} alt="" className='h-4 w-6' /> {'Evidence of case ID 2424'}
             </Table.Cell>
-            <Table.Cell className='text-nowrap ' >02-04-2024</Table.Cell >
-            <Table.Cell className='text-nowrap ' >Kalar</Table.Cell >
-            <Table.Cell className='text-nowrap ' >Bangalore-kmk</Table.Cell>
+            <Table.Cell className='text-nowrap ' >23-02-2024</Table.Cell >
+            <Table.Cell className='text-nowrap ' >Karnataka</Table.Cell >
+            <Table.Cell className='text-nowrap ' >Bangalore</Table.Cell>
             <Table.Cell  className='flex items-center gap-6'>
             <Button color="failure" outline>View</Button>
             <button><FaDownload color="#0d006b" /></button>
@@ -81,11 +81,11 @@ export default function Fir() {
           
           <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
             <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white flex gap-4">
-             <img src={Movie} alt="" className='h-4 w-6' /> {'Evidence of kalar theft case'}
+             <img src={Movie} alt="" className='h-4 w-6' /> {'Evidence of case ID 4241'}
             </Table.Cell>
-            <Table.Cell className='text-nowrap ' >02-04-2024</Table.Cell >
-            <Table.Cell className='text-nowrap ' >Kalar</Table.Cell >
-            <Table.Cell className='text-nowrap ' >Bangalore-kmk</Table.Cell>
+            <Table.Cell className='text-nowrap ' >09-01-2024</Table.Cell >
+            <Table.Cell className='text-nowrap ' >Karnataka</Table.Cell >
+            <Table.Cell className='text-nowrap ' >Bangalore</Table.Cell>
             <Table.Cell  className='flex items-center gap-6'>
             <Button color="failure" outline>View</Button>
             <button><FaDownload color="#0d006b" /></button>
@@ -94,11 +94,11 @@ export default function Fir() {
           
           <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
             <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white flex gap-4">
-             <img src={Movie} alt="" className='h-4 w-6' /> {'Evidence of kalar theft case'}
+             <img src={Movie} alt="" className='h-4 w-6' /> {'Evidence of case ID 12341'}
             </Table.Cell>
-            <Table.Cell className='text-nowrap ' >02-04-2024</Table.Cell >
-            <Table.Cell className='text-nowrap ' >Kalar</Table.Cell >
-            <Table.Cell className='text-nowrap ' >Bangalore-kmk</Table.Cell>
+            <Table.Cell className='text-nowrap ' >17-01-2024</Table.Cell >
+            <Table.Cell className='text-nowrap ' >Karnataka</Table.Cell >
+            <Table.Cell className='text-nowrap ' >Bangalore</Table.Cell>
             <Table.Cell  className='flex items-center gap-6'>
             <Button color="failure" outline>View</Button>
             <button><FaDownload color="#0d006b" /></button>
@@ -107,11 +107,11 @@ export default function Fir() {
           
           <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
             <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white flex gap-4">
-             <img src={Movie} alt="" className='h-4 w-6' /> {'Evidence of kalar theft case'}
+             <img src={Movie} alt="" className='h-4 w-6' /> {'Evidence of case ID 65467'}
             </Table.Cell>
-            <Table.Cell className='text-nowrap ' >02-04-2024</Table.Cell >
-            <Table.Cell className='text-nowrap ' >Kalar</Table.Cell >
-            <Table.Cell className='text-nowrap ' >Bangalore-kmk</Table.Cell>
+            <Table.Cell className='text-nowrap ' >29-01-2024</Table.Cell >
+            <Table.Cell className='text-nowrap ' >Karnataka</Table.Cell >
+            <Table.Cell className='text-nowrap ' >Bangalore</Table.Cell>
             <Table.Cell  className='flex items-center gap-6'>
             <Button color="failure" outline>View</Button>
             <button><FaDownload color="#0d006b" /></button>
