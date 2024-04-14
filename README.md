@@ -16,4 +16,4 @@ Processing of data with prediction using ARIMA model
 
 Mysql to store all data and prediction algorithm
 
-## Currently the project is using excel sheets for data storage and we are using Google Looker studio for data visualisation which we will shift to Mysql with Recharts and React-chartjs-2 for data visualisation in upcoming version.
+Currently the project is using excel sheets for data storage and we are using Google Looker studio for data visualisation which we will shift to Mysql with Recharts and React-chartjs-2 for data visualisation in upcoming version.
