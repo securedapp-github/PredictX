@@ -30,7 +30,7 @@ function NewFooter() {
               <Footer.LinkGroup col>
                 <Footer.Link href="#" className="text-white font-light" as='div' ><Link to='/'>Home</Link></Footer.Link>
                 <Footer.Link href="#" className="text-white font-light" as='div'><Link to='/map'>Map</Link></Footer.Link>
-                <Footer.Link href="#" className="text-white font-light" as='div'><Link to='/crime'>Crime</Link></Footer.Link>
+                <Footer.Link href="#" className="text-white font-light" as='div'><Link to='/fir'>Fir</Link></Footer.Link>
               </Footer.LinkGroup>
             </div>
             <div>
