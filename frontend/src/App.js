@@ -10,6 +10,7 @@ import Contact from './Pages/Contact';
 import Signin from './Pages/Signin';
 import Signup from './Pages/Signup';
 import Fir from './Pages/Fir';
+import About from './Pages/About';
 
 export default function App() {
   return (
@@ -20,6 +21,7 @@ export default function App() {
         <Route path="/map" element={<Map />} />
         <Route path="/state" element={<State />} />
         <Route path="/district" element={<District />} />
+        <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/signin" element={<Signin />} />
         <Route path="/signup" element={<Signup />} />

@@ -15,7 +15,11 @@ export default function Map() {
       backgroundBlendMode: 'multiply',
       backgroundColor: 'rgba(13, 0, 107,0.9)' 
     }} className='w-full relative bg-cover h-96 flex justify-center items-center'>
-      <h1 className='font-bold text-white text-2xl sm:text-3xl md:text-5xl'>Monitoring <span className='text-red-600'>Crime Analytics</span></h1>
+      <div>
+      <h1 className='font-bold text-white text-2xl sm:text-3xl md:text-5xl text-center'>Monitoring <span className='text-red-600'>Crime Analytics</span></h1>
+      <p className='text-white text-center mt-4'>Analyse historical data, weather patterns, and social media trends to identify areas and times with a high risk of crime.</p>
+      </div>
+      
     </div>
 
    <div className='w-full mt-10'>

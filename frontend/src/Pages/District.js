@@ -22,7 +22,11 @@ export default function District() {
       backgroundBlendMode: 'multiply',
       backgroundColor: 'rgba(13, 0, 107,0.9)'
     }} className='w-full relative bg-cover h-96 flex justify-center items-center'>
+      <div>
       <h1 className='font-bold text-white text-2xl sm:text-3xl md:text-5xl text-center'>Crime <span className='text-red-600'>Details In District Wise</span></h1>
+      <p className='text-white text-center mt-4'>Shown the details of crime in district wise  and predctX utilises advanced datascience to AI to anticipate crime hotspots<br />and proactive patrol deployment</p>
+      </div>
+     
     </div>
 
     <div className='w-full flex justify-center items-center flex-wrap mt-10 gap-5'>
