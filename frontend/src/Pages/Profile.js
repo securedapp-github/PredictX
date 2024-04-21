@@ -12,7 +12,7 @@ export default function Profile() {
       backgroundBlendMode: 'multiply',
       backgroundColor: 'rgba(13, 0, 107,0.9)'
     }} className='w-full relative bg-cover h-96 flex justify-center items-center'>
-      <h1 className='font-bold text-white text-2xl sm:text-3xl md:text-5xl text-center'>Accused Profile <span className='text-red-600'>Detail In District Wise</span></h1>
+      <h1 className='font-bold text-white text-2xl sm:text-3xl md:text-5xl text-center'>State <span className='text-red-600'>Crime Profile</span></h1>
     </div>
 
 

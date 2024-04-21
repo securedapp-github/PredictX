@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@tensorflow/tfjs-node": "^4.17.0",
+    "stats-lite": "^2.2.0"
+  }
+}
